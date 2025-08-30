@@ -75,7 +75,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               spacerHeight(5),
               TextFieldApp(
-                controller: controllerPhone,
+                controller: controllerPassword,
                 keyboardType: TextInputType.visiblePassword,
                 hintext: "Entrez votre mot de passe",
                 validator: (value) {
